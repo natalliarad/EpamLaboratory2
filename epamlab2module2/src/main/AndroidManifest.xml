@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.natallia.radaman.epamlab2module2">
+
+    <permission android:name="com.natallia.radaman.epamlab2module2.permission.OPEN_APP2_ACTIVITY"
+        android:label="@string/permission_access_to_app2"
+        android:description="@string/permission_access_to_app2_desc"
+        android:permissionGroup="android.permission-group.SEND_EMAIL"
+        android:protectionLevel="dangerous" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.natallia.radaman.epamlab2module2.MainActivity"
+            android:permission="com.natallia.radaman.epamlab2module2.permission.OPEN_APP2_ACTIVITY">
+            <intent-filter>
+                <action android:name="com.natallia.radaman.epamlab2module2.APPLICATION_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

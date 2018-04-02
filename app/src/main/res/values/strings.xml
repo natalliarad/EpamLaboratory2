@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EpamLab2</string>
+    <string name="go_second_app">Go to the second application</string>
+    <string name="message_permission_app2">To access to the application for writing emails, the application needs your permission</string>
+    <string name="access">Access</string>
+    <string name="deny">Deny</string>
+    <string name="permission_not_available">The permission for opening Application 2 isn\'t available.
+        Requesting for the permission. Please, wait.</string>
+    <string name="activity_access">Access to the application is allowed</string>
+    <string name="activity_denied">Access to the application is NOT allowed</string>
+</resources>

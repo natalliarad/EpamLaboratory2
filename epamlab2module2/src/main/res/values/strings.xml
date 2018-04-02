@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EPAMLab2Module2</string>
+    <string name="permission_access_to_app2">Open The Second Application</string>
+    <string name="permission_access_to_app2_desc">access to the Application 2</string>
+    <string name="textSecondApp">Здравствуйте! То, что вы читаете этот текст, означает, что переход из активности первого модуля в активность второго произошел. Может быть, теперь вы хотите вернуться обратно?</string>
+    <string name="hint_addressee">Enter email. Please, separate multiple addresses with a comma</string>
+    <string name="hint_topic">Enter letter\'s topic</string>
+    <string name="hint_letter">Write a letter...</string>
+    <string name="send_button">Send</string>
+    <string name="backToApp1">Back to the Application 1</string>
+    <string name="sendEmailProgram">Please, install email client.</string>
+</resources>
